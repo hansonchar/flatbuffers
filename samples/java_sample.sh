@@ -46,6 +46,6 @@ javac -classpath ${sampledir}/../java:${sampledir} SampleBinary.java
 java -classpath ${sampledir}/../java:${sampledir} SampleBinary
 
 # Cleanup temporary files.
-rm -rf MyGame/
-rm ${sampledir}/../java/com/google/flatbuffers/*.class
-rm *.class
+# rm -rf MyGame/
+# rm ${sampledir}/../java/com/google/flatbuffers/*.class
+# rm *.class
